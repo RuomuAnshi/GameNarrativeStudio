@@ -1,0 +1,46 @@
+{
+  "id": "demo",
+  "start": "intro",
+  "nodes": {
+    "intro": {
+      "type": "line",
+      "speaker": "anon",
+      "text": "立希，你今天是不是有点不高兴？",
+      "next": "answer"
+    },
+    "answer": {
+      "type": "line",
+      "speaker": "taki",
+      "text": "……没有。",
+      "next": "choose"
+    },
+    "choose": {
+      "type": "choice",
+      "options": [
+        {
+          "text": "继续追问",
+          "target": "tease"
+        },
+        {
+          "text": "换个话题",
+          "target": "quiet"
+        }
+      ]
+    },
+    "tease": {
+      "type": "line",
+      "speaker": "anon",
+      "text": "真的？",
+      "next": "end"
+    },
+    "quiet": {
+      "type": "line",
+      "speaker": "anon",
+      "text": "那我们练习吧。",
+      "next": "end"
+    },
+    "end": {
+      "type": "end"
+    }
+  }
+}
