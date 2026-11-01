@@ -1,0 +1,3 @@
+changeBg:classroom.png -next;
+爱音:早上好;
+立希:……嗯;
