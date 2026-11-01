@@ -1,0 +1,14 @@
+{
+  "name": "Game Narrative Studio",
+  "version": "0.3.0",
+  "mode": "both",
+  "engines": [
+    "renpy",
+    "webgal",
+    "paradox"
+  ],
+  "language": "zh-CN",
+  "content_rating": "mature-nonexplicit",
+  "style": "natural-dialogue",
+  "max_dialogue_chars": 72
+}
